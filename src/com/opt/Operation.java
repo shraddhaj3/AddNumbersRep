@@ -6,7 +6,7 @@ public class Operation {
 		
 		//If addition result value overflows or underflows return 0
 		if(result > Integer.MAX_VALUE || result < Integer.MIN_VALUE)
-			return 2;
+			return 0;
 		
 		return (int)result;
 	}
